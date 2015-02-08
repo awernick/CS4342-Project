@@ -2,7 +2,7 @@
 lock '3.3.5'
 
 set :application, 'cs4342_project'
-set :repo_url, 'https://github.com/awernick/CS4342-Project.git'
+set :repo_url, 'git@github.com:awernick/CS4342-Project.git'
 
 
 set :pty, true
