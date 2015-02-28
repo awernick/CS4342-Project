@@ -2,6 +2,6 @@
 
 @section('content')
 
-Hello {{Auth::user()->name}}
+Hello {{Auth::user()->name}} !
 
 @endsection
