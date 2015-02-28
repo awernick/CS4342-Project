@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock '3.3.5'
 
-set :application, 'Latinas In Computing'
+set :application, 'latinas-in-computing'
 set :repo_url, 'git@github.com:awernick/CS4342-Project.git'
 
 
