@@ -2,6 +2,6 @@
 
 @section('content')
 
-Testing 123
+Hello {{Auth::user()->name}}
 
 @endsection
