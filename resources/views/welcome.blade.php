@@ -2,6 +2,6 @@
 
 @section('content')
 
-Hello!
+Testing 123
 
 @endsection
