@@ -2,7 +2,7 @@
 
 @section('content')
 
-  @if (Auth::guest)
+  @if (Auth::guest())
     Hello Stranger, sign-up!
   @else
     Hello {{Auth::user()->name}} !
