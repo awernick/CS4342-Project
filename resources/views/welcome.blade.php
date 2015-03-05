@@ -2,6 +2,9 @@
 
 @section('content')
 
-Hello {{Auth::user()->name}} !
-
+  @if (Auth::guest)
+    Hello Stranger, sign-up!
+  @else
+    Hello {{Auth::user()->name}} !
+  @endif
 @endsection
